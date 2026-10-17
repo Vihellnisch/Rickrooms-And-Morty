@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rickrooms:inverted_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 36,
+    "salt": 190376122
+  }
+}

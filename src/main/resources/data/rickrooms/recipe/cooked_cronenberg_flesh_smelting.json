@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "rickrooms:cronenberg_flesh"
+  },
+  "result": {
+    "id": "rickrooms:cooked_cronenberg_flesh"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

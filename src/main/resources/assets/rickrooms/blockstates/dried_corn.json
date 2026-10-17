@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "rickrooms:block/dried_corn_bottom"
+    },
+    "half=upper": {
+      "model": "rickrooms:block/dried_corn_top"
+    }
+  }
+}

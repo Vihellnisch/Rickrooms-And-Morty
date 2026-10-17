@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "RICKROOMS_LANTERN",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "com/rickandmorty/client/LanternArmPose",
+        "field": "PARAMETERS"
+      }
+    }
+  ]
+}

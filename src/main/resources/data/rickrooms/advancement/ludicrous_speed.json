@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cruiser_thrusters_mk3"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.ludicrous_speed.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.ludicrous_speed.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cruiser_upgrade"
+}

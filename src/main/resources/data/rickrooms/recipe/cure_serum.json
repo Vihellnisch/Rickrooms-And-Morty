@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rickrooms:almond_water"
+    },
+    {
+      "item": "rickrooms:mutagen_sac"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ],
+  "result": {
+    "id": "rickrooms:cure_serum",
+    "count": 1
+  }
+}

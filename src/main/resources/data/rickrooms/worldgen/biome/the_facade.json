@@ -1,0 +1,24 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.7,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 12172221,
+    "sky_color": 11843514,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 8167498,
+    "foliage_color": 6983744,
+    "ambient_sound": "minecraft:block.beacon.ambient",
+    "music": {
+      "sound": "rickrooms:music.the_facade",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

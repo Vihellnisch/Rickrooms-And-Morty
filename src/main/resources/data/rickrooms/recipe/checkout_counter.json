@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_carpet"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "rickrooms:checkout_counter",
+    "count": 2
+  }
+}

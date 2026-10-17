@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:scarecrow_head"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.farm_scarecrow.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.farm_scarecrow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:scarecrow_lantern"
+}

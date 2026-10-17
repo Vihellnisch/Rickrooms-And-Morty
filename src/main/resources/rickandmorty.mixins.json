@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rickandmorty.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WorldDimensionsMixin"
+  ],
+  "client": [
+    "client.EntityShadowMixin",
+    "client.XRayBlockMixin",
+    "client.XRayFaceMixin",
+    "client.XRayLightMixin",
+    "client.XRayLightLevelMixin",
+    "client.sodium.XRaySodiumBlockMixin",
+    "client.sodium.XRaySodiumFaceMixin",
+    "client.sodium.XRaySodiumFluidMixin",
+    "client.sodium.XRaySodiumLightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

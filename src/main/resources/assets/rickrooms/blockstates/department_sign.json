@@ -1,0 +1,274 @@
+{
+  "variants": {
+    "facing=north,icon=0": {
+      "model": "rickrooms:block/department_sign_0"
+    },
+    "facing=east,icon=0": {
+      "model": "rickrooms:block/department_sign_0",
+      "y": 90
+    },
+    "facing=south,icon=0": {
+      "model": "rickrooms:block/department_sign_0",
+      "y": 180
+    },
+    "facing=west,icon=0": {
+      "model": "rickrooms:block/department_sign_0",
+      "y": 270
+    },
+    "facing=north,icon=1": {
+      "model": "rickrooms:block/department_sign_1"
+    },
+    "facing=east,icon=1": {
+      "model": "rickrooms:block/department_sign_1",
+      "y": 90
+    },
+    "facing=south,icon=1": {
+      "model": "rickrooms:block/department_sign_1",
+      "y": 180
+    },
+    "facing=west,icon=1": {
+      "model": "rickrooms:block/department_sign_1",
+      "y": 270
+    },
+    "facing=north,icon=2": {
+      "model": "rickrooms:block/department_sign_2"
+    },
+    "facing=east,icon=2": {
+      "model": "rickrooms:block/department_sign_2",
+      "y": 90
+    },
+    "facing=south,icon=2": {
+      "model": "rickrooms:block/department_sign_2",
+      "y": 180
+    },
+    "facing=west,icon=2": {
+      "model": "rickrooms:block/department_sign_2",
+      "y": 270
+    },
+    "facing=north,icon=3": {
+      "model": "rickrooms:block/department_sign_3"
+    },
+    "facing=east,icon=3": {
+      "model": "rickrooms:block/department_sign_3",
+      "y": 90
+    },
+    "facing=south,icon=3": {
+      "model": "rickrooms:block/department_sign_3",
+      "y": 180
+    },
+    "facing=west,icon=3": {
+      "model": "rickrooms:block/department_sign_3",
+      "y": 270
+    },
+    "facing=north,icon=4": {
+      "model": "rickrooms:block/department_sign_4"
+    },
+    "facing=east,icon=4": {
+      "model": "rickrooms:block/department_sign_4",
+      "y": 90
+    },
+    "facing=south,icon=4": {
+      "model": "rickrooms:block/department_sign_4",
+      "y": 180
+    },
+    "facing=west,icon=4": {
+      "model": "rickrooms:block/department_sign_4",
+      "y": 270
+    },
+    "facing=north,icon=5": {
+      "model": "rickrooms:block/department_sign_5"
+    },
+    "facing=east,icon=5": {
+      "model": "rickrooms:block/department_sign_5",
+      "y": 90
+    },
+    "facing=south,icon=5": {
+      "model": "rickrooms:block/department_sign_5",
+      "y": 180
+    },
+    "facing=west,icon=5": {
+      "model": "rickrooms:block/department_sign_5",
+      "y": 270
+    },
+    "facing=north,icon=6": {
+      "model": "rickrooms:block/department_sign_6"
+    },
+    "facing=east,icon=6": {
+      "model": "rickrooms:block/department_sign_6",
+      "y": 90
+    },
+    "facing=south,icon=6": {
+      "model": "rickrooms:block/department_sign_6",
+      "y": 180
+    },
+    "facing=west,icon=6": {
+      "model": "rickrooms:block/department_sign_6",
+      "y": 270
+    },
+    "facing=north,icon=7": {
+      "model": "rickrooms:block/department_sign_7"
+    },
+    "facing=east,icon=7": {
+      "model": "rickrooms:block/department_sign_7",
+      "y": 90
+    },
+    "facing=south,icon=7": {
+      "model": "rickrooms:block/department_sign_7",
+      "y": 180
+    },
+    "facing=west,icon=7": {
+      "model": "rickrooms:block/department_sign_7",
+      "y": 270
+    },
+    "facing=north,icon=8": {
+      "model": "rickrooms:block/department_sign_8"
+    },
+    "facing=east,icon=8": {
+      "model": "rickrooms:block/department_sign_8",
+      "y": 90
+    },
+    "facing=south,icon=8": {
+      "model": "rickrooms:block/department_sign_8",
+      "y": 180
+    },
+    "facing=west,icon=8": {
+      "model": "rickrooms:block/department_sign_8",
+      "y": 270
+    },
+    "facing=north,icon=9": {
+      "model": "rickrooms:block/department_sign_9"
+    },
+    "facing=east,icon=9": {
+      "model": "rickrooms:block/department_sign_9",
+      "y": 90
+    },
+    "facing=south,icon=9": {
+      "model": "rickrooms:block/department_sign_9",
+      "y": 180
+    },
+    "facing=west,icon=9": {
+      "model": "rickrooms:block/department_sign_9",
+      "y": 270
+    },
+    "facing=north,icon=10": {
+      "model": "rickrooms:block/department_sign_10"
+    },
+    "facing=east,icon=10": {
+      "model": "rickrooms:block/department_sign_10",
+      "y": 90
+    },
+    "facing=south,icon=10": {
+      "model": "rickrooms:block/department_sign_10",
+      "y": 180
+    },
+    "facing=west,icon=10": {
+      "model": "rickrooms:block/department_sign_10",
+      "y": 270
+    },
+    "facing=north,icon=11": {
+      "model": "rickrooms:block/department_sign_11"
+    },
+    "facing=east,icon=11": {
+      "model": "rickrooms:block/department_sign_11",
+      "y": 90
+    },
+    "facing=south,icon=11": {
+      "model": "rickrooms:block/department_sign_11",
+      "y": 180
+    },
+    "facing=west,icon=11": {
+      "model": "rickrooms:block/department_sign_11",
+      "y": 270
+    },
+    "facing=north,icon=12": {
+      "model": "rickrooms:block/department_sign_12"
+    },
+    "facing=east,icon=12": {
+      "model": "rickrooms:block/department_sign_12",
+      "y": 90
+    },
+    "facing=south,icon=12": {
+      "model": "rickrooms:block/department_sign_12",
+      "y": 180
+    },
+    "facing=west,icon=12": {
+      "model": "rickrooms:block/department_sign_12",
+      "y": 270
+    },
+    "facing=north,icon=13": {
+      "model": "rickrooms:block/department_sign_13"
+    },
+    "facing=east,icon=13": {
+      "model": "rickrooms:block/department_sign_13",
+      "y": 90
+    },
+    "facing=south,icon=13": {
+      "model": "rickrooms:block/department_sign_13",
+      "y": 180
+    },
+    "facing=west,icon=13": {
+      "model": "rickrooms:block/department_sign_13",
+      "y": 270
+    },
+    "facing=north,icon=14": {
+      "model": "rickrooms:block/department_sign_14"
+    },
+    "facing=east,icon=14": {
+      "model": "rickrooms:block/department_sign_14",
+      "y": 90
+    },
+    "facing=south,icon=14": {
+      "model": "rickrooms:block/department_sign_14",
+      "y": 180
+    },
+    "facing=west,icon=14": {
+      "model": "rickrooms:block/department_sign_14",
+      "y": 270
+    },
+    "facing=north,icon=15": {
+      "model": "rickrooms:block/department_sign_15"
+    },
+    "facing=east,icon=15": {
+      "model": "rickrooms:block/department_sign_15",
+      "y": 90
+    },
+    "facing=south,icon=15": {
+      "model": "rickrooms:block/department_sign_15",
+      "y": 180
+    },
+    "facing=west,icon=15": {
+      "model": "rickrooms:block/department_sign_15",
+      "y": 270
+    },
+    "facing=north,icon=16": {
+      "model": "rickrooms:block/department_sign_16"
+    },
+    "facing=east,icon=16": {
+      "model": "rickrooms:block/department_sign_16",
+      "y": 90
+    },
+    "facing=south,icon=16": {
+      "model": "rickrooms:block/department_sign_16",
+      "y": 180
+    },
+    "facing=west,icon=16": {
+      "model": "rickrooms:block/department_sign_16",
+      "y": 270
+    },
+    "facing=north,icon=17": {
+      "model": "rickrooms:block/department_sign_17"
+    },
+    "facing=east,icon=17": {
+      "model": "rickrooms:block/department_sign_17",
+      "y": 90
+    },
+    "facing=south,icon=17": {
+      "model": "rickrooms:block/department_sign_17",
+      "y": 180
+    },
+    "facing=west,icon=17": {
+      "model": "rickrooms:block/department_sign_17",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.scarecrow.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.scarecrow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rickrooms:scarecrow"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:the_harvest"
+}

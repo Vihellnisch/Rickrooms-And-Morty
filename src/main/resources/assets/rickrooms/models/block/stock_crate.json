@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "rickrooms:block/stock_crate_side",
+    "top": "rickrooms:block/stock_crate_top",
+    "bottom": "rickrooms:block/stock_crate_top"
+  }
+}

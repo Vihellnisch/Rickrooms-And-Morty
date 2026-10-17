@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PNP",
+    "DBD",
+    "PNP"
+  ],
+  "key": {
+    "P": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "rickrooms:cruiser_booster_mk2"
+    }
+  },
+  "result": {
+    "id": "rickrooms:cruiser_booster_mk3",
+    "count": 1
+  }
+}

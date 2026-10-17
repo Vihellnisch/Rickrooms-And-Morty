@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rickrooms:store_pallet"
+    },
+    {
+      "item": "rickrooms:flat_pack_box"
+    }
+  ],
+  "result": {
+    "id": "rickrooms:loaded_pallet",
+    "count": 1
+  }
+}

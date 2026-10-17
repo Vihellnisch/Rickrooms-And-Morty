@@ -1,0 +1,19 @@
+# build output and caches
+.gradle/
+build/
+out/
+.idea/
+*.iml
+__pycache__/
+*.pyc
+
+# local game runs (dev, game tests, screenshot tours)
+run/
+run-gametest/
+run-tour/
+
+# third-party jars kept only for offline builds (Gradle downloads them otherwise)
+libs/
+
+# private reference pictures used while designing
+reference/

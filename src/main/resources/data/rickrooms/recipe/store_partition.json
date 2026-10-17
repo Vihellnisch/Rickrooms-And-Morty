@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CP",
+    "PC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_concrete"
+    },
+    "P": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "id": "rickrooms:store_partition",
+    "count": 4
+  }
+}

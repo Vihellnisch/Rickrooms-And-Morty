@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FDF",
+    "DGD",
+    "FDF"
+  ],
+  "key": {
+    "F": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "rickrooms:portal_gun"
+    }
+  },
+  "result": {
+    "id": "rickrooms:portal_drive_upgrade",
+    "count": 1
+  }
+}

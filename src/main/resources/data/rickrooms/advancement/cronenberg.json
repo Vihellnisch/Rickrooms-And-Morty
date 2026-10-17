@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:veined_flesh"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.cronenberg.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.cronenberg.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:cronenberg"
+      }
+    }
+  },
+  "parent": "rickrooms:cronenberg_research"
+}

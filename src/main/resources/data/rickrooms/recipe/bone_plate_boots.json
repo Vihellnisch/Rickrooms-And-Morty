@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "rickrooms:bone_plate"
+    }
+  },
+  "result": {
+    "id": "rickrooms:bone_plate_boots",
+    "count": 1
+  }
+}

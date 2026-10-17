@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:glowstone_cavern",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "cavern",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:glowstone_cavern"
+    }
+  }
+}

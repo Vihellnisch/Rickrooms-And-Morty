@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:survivor_helmet"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.survivors.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.survivors.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cronenberg"
+}

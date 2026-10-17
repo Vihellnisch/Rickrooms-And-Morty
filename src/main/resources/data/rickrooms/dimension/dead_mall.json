@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:dead_mall",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "dead_mall",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:dead_mall"
+    }
+  }
+}

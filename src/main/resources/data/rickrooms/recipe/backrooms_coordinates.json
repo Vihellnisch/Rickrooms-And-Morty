@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rickrooms:journal_page_1"
+    },
+    {
+      "item": "rickrooms:journal_page_2"
+    },
+    {
+      "item": "rickrooms:journal_page_3"
+    },
+    {
+      "item": "rickrooms:portal_fluid"
+    }
+  ],
+  "result": {
+    "id": "rickrooms:backrooms_coordinates",
+    "count": 1
+  }
+}

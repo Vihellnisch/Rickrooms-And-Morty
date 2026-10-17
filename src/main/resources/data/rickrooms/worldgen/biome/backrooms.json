@@ -1,0 +1,30 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 13218922,
+    "sky_color": 13218922,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "rickrooms:backrooms.hum",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "grass_color": 7979098,
+    "foliage_color": 5877296,
+    "music": {
+      "sound": "rickrooms:music.backrooms",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

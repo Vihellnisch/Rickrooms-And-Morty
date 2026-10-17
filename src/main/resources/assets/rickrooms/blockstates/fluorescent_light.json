@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "rickrooms:block/fluorescent_light"
+    },
+    "lit=false": {
+      "model": "rickrooms:block/fluorescent_light_off"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:store_door"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_store.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_store.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "rickrooms:store"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

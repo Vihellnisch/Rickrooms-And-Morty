@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "tip=false": {
+      "model": "rickrooms:block/hanging_cable"
+    },
+    "tip=true": {
+      "model": "rickrooms:block/hanging_cable_tip"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cruiser_booster_mk3"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.unlimited_power.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.unlimited_power.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cruiser_upgrade"
+}

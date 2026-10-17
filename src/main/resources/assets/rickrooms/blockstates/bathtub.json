@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/bathtub"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/bathtub",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/bathtub",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/bathtub",
+      "y": 270
+    }
+  }
+}

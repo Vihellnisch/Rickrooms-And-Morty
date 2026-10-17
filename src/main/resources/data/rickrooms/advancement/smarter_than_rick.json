@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cognition_amplifier"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.smarter_than_rick.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.smarter_than_rick.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:lawnmower_dog"
+}

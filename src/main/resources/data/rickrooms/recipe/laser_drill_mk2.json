@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DAD",
+    "ALA",
+    "DAD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "L": {
+      "item": "rickrooms:laser_drill_upgrade"
+    }
+  },
+  "result": {
+    "id": "rickrooms:laser_drill_mk2",
+    "count": 1
+  }
+}

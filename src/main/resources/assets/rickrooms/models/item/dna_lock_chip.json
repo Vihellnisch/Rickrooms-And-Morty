@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rickrooms:item/dna_lock_chip"
+  }
+}

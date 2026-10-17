@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/store_chair"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/store_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/store_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/store_chair",
+      "y": 270
+    }
+  }
+}

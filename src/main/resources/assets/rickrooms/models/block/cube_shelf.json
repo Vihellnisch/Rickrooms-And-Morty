@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "rickrooms:block/cube_shelf_front",
+    "side": "rickrooms:block/cube_shelf_side",
+    "top": "rickrooms:block/cube_shelf_side"
+  }
+}

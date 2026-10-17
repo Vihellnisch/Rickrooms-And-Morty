@@ -1,0 +1,10 @@
+{
+  "type": "rickrooms:backrooms",
+  "generator": {
+    "type": "rickrooms:backrooms",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:backrooms"
+    }
+  }
+}

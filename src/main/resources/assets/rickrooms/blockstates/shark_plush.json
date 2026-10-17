@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/shark_plush"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/shark_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/shark_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/shark_plush",
+      "y": 270
+    }
+  }
+}

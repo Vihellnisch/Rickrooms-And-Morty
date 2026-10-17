@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "C  ",
+    "CQC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_concrete"
+    },
+    "Q": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "rickrooms:toilet",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:backrooms_carpet"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.noclip.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.noclip.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "noclip": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:root"
+}

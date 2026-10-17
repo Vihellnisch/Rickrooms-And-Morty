@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:abandoned_city",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "abandoned_city",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:abandoned_city"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=0": {
+      "model": "rickrooms:block/present_red"
+    },
+    "color=1": {
+      "model": "rickrooms:block/present_yellow"
+    },
+    "color=2": {
+      "model": "rickrooms:block/present_blue"
+    },
+    "color=3": {
+      "model": "rickrooms:block/present_green"
+    }
+  }
+}

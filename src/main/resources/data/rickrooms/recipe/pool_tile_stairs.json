@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "T  ",
+    "TT ",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "rickrooms:pool_tile"
+    }
+  },
+  "result": {
+    "id": "rickrooms:pool_tile_stairs",
+    "count": 4
+  }
+}

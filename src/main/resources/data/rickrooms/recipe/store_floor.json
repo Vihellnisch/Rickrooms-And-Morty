@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:light_gray_concrete"
+    }
+  },
+  "result": {
+    "id": "rickrooms:store_floor",
+    "count": 4
+  }
+}

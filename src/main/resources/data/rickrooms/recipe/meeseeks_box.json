@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LTL",
+    "IRI",
+    "LIL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "T": {
+      "item": "minecraft:stone_button"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "rickrooms:meeseeks_box",
+    "count": 1
+  }
+}

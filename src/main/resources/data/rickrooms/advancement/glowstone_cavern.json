@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.glowstone_cavern.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.glowstone_cavern.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:glowstone_cavern"
+      }
+    }
+  },
+  "parent": "rickrooms:scaffold_void"
+}

@@ -1,0 +1,29 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.75,
+  "downfall": 0.7,
+  "effects": {
+    "fog_color": 12305844,
+    "sky_color": 9938096,
+    "water_color": 4090716,
+    "water_fog_color": 2771520,
+    "grass_color": 7248446,
+    "foliage_color": 5144624,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.0025
+    },
+    "music": {
+      "sound": "rickrooms:music.abandoned_city",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

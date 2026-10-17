@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_library"
+    }
+  ],
+  "item": "rickrooms:rick_notes_3",
+  "chance": 0.25
+}

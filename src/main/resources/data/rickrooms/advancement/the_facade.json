@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:air_conditioner"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_facade.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_facade.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:the_facade"
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

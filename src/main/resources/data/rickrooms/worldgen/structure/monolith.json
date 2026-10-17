@@ -1,0 +1,8 @@
+{
+  "type": "rickrooms:site",
+  "kind": "monolith",
+  "biomes": "#rickrooms:has_monolith",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

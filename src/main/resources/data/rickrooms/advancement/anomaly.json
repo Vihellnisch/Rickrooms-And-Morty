@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:fluorescent_light"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.anomaly.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.anomaly.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#rickrooms:anomalies"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:root"
+}

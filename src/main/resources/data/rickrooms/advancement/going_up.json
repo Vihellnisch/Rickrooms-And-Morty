@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:slide"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.going_up.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.going_up.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "upstairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "rickrooms:backrooms",
+                "position": {
+                  "y": {
+                    "min": 6.5
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

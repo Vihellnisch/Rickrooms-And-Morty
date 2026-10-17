@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "rickrooms:flesh",
+    "rickrooms:veined_flesh",
+    "rickrooms:rotting_flesh",
+    "rickrooms:tumor",
+    "rickrooms:watching_flesh",
+    "rickrooms:blood_clot",
+    "rickrooms:calcified_bone"
+  ]
+}

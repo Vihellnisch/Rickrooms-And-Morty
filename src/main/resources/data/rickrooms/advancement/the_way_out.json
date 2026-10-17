@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:exit_door"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_way_out.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_way_out.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:sunlit_lobby"
+}

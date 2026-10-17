@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "rickrooms:block/mall_trash_can",
+    "t": "rickrooms:block/mall_trash_can",
+    "lid": "minecraft:block/brown_terracotta"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        13,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#t",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#t",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#t",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#t",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#t",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#t",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        13,
+        3.5
+      ],
+      "to": [
+        12.5,
+        14,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            2,
+            12.5,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            2,
+            12.5,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            2,
+            12.5,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            2,
+            12.5,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            3.5,
+            12.5,
+            12.5
+          ]
+        },
+        "down": {
+          "texture": "#lid",
+          "uv": [
+            3.5,
+            3.5,
+            12.5,
+            12.5
+          ]
+        }
+      }
+    }
+  ]
+}

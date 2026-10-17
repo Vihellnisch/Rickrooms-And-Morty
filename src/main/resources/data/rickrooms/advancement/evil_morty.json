@@ -1,0 +1,23 @@
+{
+  "parent": "rickrooms:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.evil_morty.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.evil_morty.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "gold": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

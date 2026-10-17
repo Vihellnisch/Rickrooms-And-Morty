@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:froopy_turf_pink"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.froopyland.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.froopyland.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:froopyland"
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

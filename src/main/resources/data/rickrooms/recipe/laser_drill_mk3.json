@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "OFO",
+    "NLN",
+    "OFO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "F": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "L": {
+      "item": "rickrooms:laser_drill_mk2"
+    }
+  },
+  "result": {
+    "id": "rickrooms:laser_drill_mk3",
+    "count": 1
+  }
+}

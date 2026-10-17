@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:disintegrator_upgrade"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.disintegrated.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.disintegrated.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cruiser_upgrade"
+}

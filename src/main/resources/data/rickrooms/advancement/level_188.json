@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_stained_glass"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.level_188.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.level_188.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:level_188"
+      }
+    }
+  },
+  "parent": "rickrooms:level_4"
+}

@@ -1,0 +1,111 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.3,
+  "effects": {
+    "sky_color": 7023146,
+    "water_color": 7997962,
+    "water_fog_color": 2753283,
+    "grass_color": 9054762,
+    "foliage_color": 9054762,
+    "ambient_sound": "rickrooms:cronenberg.wind",
+    "mood_sound": {
+      "sound": "rickrooms:cronenberg.distant",
+      "tick_delay": 3000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "rickrooms:cronenberg.heartbeat",
+      "tick_chance": 0.004
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.01
+    },
+    "fog_color": 3146758,
+    "music": {
+      "sound": "rickrooms:music.cronenberg",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "rickrooms:cronenberg_crawler",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "rickrooms:cronenberg_stalker",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "rickrooms:cronenberg_blob",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper"
+    ],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "rickrooms:ribcage_sea",
+      "rickrooms:tumor_mound_rare"
+    ],
+    []
+  ]
+}

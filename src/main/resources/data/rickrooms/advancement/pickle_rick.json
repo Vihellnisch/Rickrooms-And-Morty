@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.pickle_rick.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.pickle_rick.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickle": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "rickrooms:pickle_rick": {}
+        }
+      }
+    }
+  },
+  "parent": "rickrooms:root"
+}

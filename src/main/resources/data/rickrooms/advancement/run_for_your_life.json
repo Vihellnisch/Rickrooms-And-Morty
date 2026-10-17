@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:red_exit_sign"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.run_for_your_life.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.run_for_your_life.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:run_for_your_life"
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

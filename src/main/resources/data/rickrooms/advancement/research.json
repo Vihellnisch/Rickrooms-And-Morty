@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:backrooms_coordinates"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.research.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.research.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coordinates": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:backrooms_coordinates"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:root"
+}

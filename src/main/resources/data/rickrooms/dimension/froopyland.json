@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:froopyland",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "froopyland",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:froopyland"
+    }
+  }
+}

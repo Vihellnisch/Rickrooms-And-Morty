@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "active=false,facing=north,red=false": {
+      "model": "rickrooms:block/warp_gateway"
+    },
+    "active=false,facing=north,red=true": {
+      "model": "rickrooms:block/warp_gateway_red"
+    },
+    "active=true,facing=north,red=false": {
+      "model": "rickrooms:block/warp_gateway"
+    },
+    "active=true,facing=north,red=true": {
+      "model": "rickrooms:block/warp_gateway_red"
+    },
+    "active=false,facing=east,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 90
+    },
+    "active=false,facing=east,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 90
+    },
+    "active=true,facing=east,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 90
+    },
+    "active=true,facing=east,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 90
+    },
+    "active=false,facing=south,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 180
+    },
+    "active=false,facing=south,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 180
+    },
+    "active=true,facing=south,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 180
+    },
+    "active=true,facing=south,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 180
+    },
+    "active=false,facing=west,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 270
+    },
+    "active=false,facing=west,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 270
+    },
+    "active=true,facing=west,red=false": {
+      "model": "rickrooms:block/warp_gateway",
+      "y": 270
+    },
+    "active=true,facing=west,red=true": {
+      "model": "rickrooms:block/warp_gateway_red",
+      "y": 270
+    }
+  }
+}

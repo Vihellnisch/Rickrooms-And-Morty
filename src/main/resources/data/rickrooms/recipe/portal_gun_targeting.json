@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "rickrooms:targeting_chip"
+  },
+  "base": {
+    "item": "rickrooms:portal_gun"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "rickrooms:portal_gun",
+    "count": 1,
+    "components": {
+      "rickrooms:targeting": true
+    }
+  }
+}

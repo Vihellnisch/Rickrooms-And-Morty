@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cronenberg_coordinates"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.cronenberg_research.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.cronenberg_research.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "notes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:cronenberg_coordinates"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

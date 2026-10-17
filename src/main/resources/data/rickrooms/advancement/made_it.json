@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:exit_door"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.made_it.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.made_it.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "escaped": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "rickrooms:run_for_your_life",
+        "to": "rickrooms:sunlit_lobby"
+      }
+    }
+  },
+  "parent": "rickrooms:run_for_your_life"
+}

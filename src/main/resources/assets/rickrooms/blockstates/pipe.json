@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "rickrooms:block/pipe"
+    },
+    "axis=z": {
+      "model": "rickrooms:block/pipe",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "rickrooms:block/pipe",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

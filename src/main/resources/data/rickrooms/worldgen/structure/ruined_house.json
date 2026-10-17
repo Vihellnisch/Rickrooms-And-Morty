@@ -1,0 +1,8 @@
+{
+  "type": "rickrooms:site",
+  "kind": "ruined_house",
+  "biomes": "#rickrooms:has_ruined_house",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

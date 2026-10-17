@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:microverse_battery"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.microverse.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.microverse.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "rickrooms:microverse_battery"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:portal_fluid"
+}

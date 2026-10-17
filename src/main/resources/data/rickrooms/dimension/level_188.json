@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:level_188",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "level_188",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:level_188"
+    }
+  }
+}

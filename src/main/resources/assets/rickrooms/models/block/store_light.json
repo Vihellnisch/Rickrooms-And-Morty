@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "rickrooms:block/store_light",
+    "t": "rickrooms:block/store_light"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        4
+      ],
+      "to": [
+        11,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#t",
+          "uv": [
+            5,
+            11,
+            11,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#t",
+          "uv": [
+            5,
+            11,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#t",
+          "uv": [
+            4,
+            11,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#t",
+          "uv": [
+            4,
+            11,
+            12,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#t",
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#t",
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

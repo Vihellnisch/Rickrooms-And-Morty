@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "rickrooms:block/department_sign_10",
+    "icon": "rickrooms:block/department_sign_10",
+    "edge": "rickrooms:block/exit_sign_edge"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        2,
+        7
+      ],
+      "to": [
+        16,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#icon",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#icon",
+          "uv": [
+            16,
+            2,
+            0,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        }
+      }
+    }
+  ]
+}

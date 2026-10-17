@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:noclip_void"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_hole.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_hole.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

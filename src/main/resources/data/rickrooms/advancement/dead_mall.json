@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:gumball_machine"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.dead_mall.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.dead_mall.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:dead_mall"
+      }
+    }
+  },
+  "parent": "rickrooms:level_188"
+}

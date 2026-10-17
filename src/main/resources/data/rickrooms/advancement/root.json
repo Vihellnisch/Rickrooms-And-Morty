@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:portal_gun"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.root.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "rickrooms:textures/block/backrooms_wallpaper.png"
+  },
+  "criteria": {
+    "gun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:portal_gun"
+          }
+        ]
+      }
+    }
+  }
+}

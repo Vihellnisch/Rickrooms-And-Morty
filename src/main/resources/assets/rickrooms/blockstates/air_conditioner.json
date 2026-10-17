@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/air_conditioner"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/air_conditioner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/air_conditioner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/air_conditioner",
+      "y": 270
+    }
+  }
+}

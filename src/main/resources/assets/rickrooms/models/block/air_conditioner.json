@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "rickrooms:block/ac_front",
+    "side": "rickrooms:block/ac_side",
+    "top": "rickrooms:block/ac_top"
+  }
+}

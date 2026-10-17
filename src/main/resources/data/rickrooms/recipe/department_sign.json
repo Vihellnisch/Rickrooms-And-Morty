@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "YYY",
+    "YBY"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "id": "rickrooms:department_sign",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:endless_field",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "endless_field",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:endless_field"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:portal_fluid"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.portal_fluid.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.portal_fluid.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fluid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:portal_fluid"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:root"
+}

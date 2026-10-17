@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:shrink_ray"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.honey_i_shrunk.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.honey_i_shrunk.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:microverse"
+}

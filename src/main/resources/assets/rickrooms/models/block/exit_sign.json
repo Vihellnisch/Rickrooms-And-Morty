@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "rickrooms:block/exit_sign_front",
+    "front": "rickrooms:block/exit_sign_front",
+    "back": "rickrooms:block/exit_sign_back",
+    "edge": "rickrooms:block/exit_sign_edge"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        3,
+        7
+      ],
+      "to": [
+        16,
+        13,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#back",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        }
+      }
+    }
+  ]
+}

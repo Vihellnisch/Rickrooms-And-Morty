@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.council.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.council.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:root"
+}

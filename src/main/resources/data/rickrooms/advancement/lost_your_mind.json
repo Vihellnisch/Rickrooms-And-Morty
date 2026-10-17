@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.lost_your_mind.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.lost_your_mind.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "insane": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

@@ -1,0 +1,23 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.7,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 14214902,
+    "sky_color": 4026326,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 8175683,
+    "foliage_color": 6467630,
+    "music": {
+      "sound": "rickrooms:music.the_staircase",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

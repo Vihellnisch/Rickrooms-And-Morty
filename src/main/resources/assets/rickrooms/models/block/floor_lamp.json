@@ -1,0 +1,214 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "rickrooms:block/lamp_shade",
+    "shade": "rickrooms:block/lamp_shade",
+    "pole": "minecraft:block/black_concrete"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        1,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#pole",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        1,
+        7.5
+      ],
+      "to": [
+        8.5,
+        11,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "down": {
+          "texture": "#pole",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        10,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            0,
+            12,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            0,
+            12,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            0,
+            12,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            0,
+            12,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

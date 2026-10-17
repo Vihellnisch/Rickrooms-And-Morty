@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "rickrooms:chests/backrooms_office"
+    }
+  ],
+  "item": "rickrooms:rick_notes_1",
+  "chance": 0.2
+}

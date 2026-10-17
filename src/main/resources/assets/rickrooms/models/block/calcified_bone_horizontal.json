@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "rickrooms:block/calcified_bone_top",
+    "side": "rickrooms:block/calcified_bone"
+  }
+}

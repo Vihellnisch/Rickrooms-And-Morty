@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:pool_tile"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.poolrooms.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.poolrooms.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:poolrooms"
+      }
+    }
+  },
+  "parent": "rickrooms:level_188"
+}

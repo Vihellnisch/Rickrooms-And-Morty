@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "rickrooms:backrooms_wallpaper",
+    "rickrooms:store_partition",
+    "rickrooms:store_chair",
+    "rickrooms:dining_table",
+    "rickrooms:coffee_table",
+    "rickrooms:cube_shelf",
+    "rickrooms:kitchen_cabinet",
+    "rickrooms:stock_crate",
+    "rickrooms:store_pallet",
+    "rickrooms:flat_pack_box",
+    "rickrooms:loaded_pallet",
+    "rickrooms:mall_bench"
+  ]
+}

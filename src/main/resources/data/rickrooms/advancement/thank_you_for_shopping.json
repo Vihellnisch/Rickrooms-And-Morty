@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:store_door"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.thank_you_for_shopping.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.thank_you_for_shopping.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:infinite_ikea"
+}

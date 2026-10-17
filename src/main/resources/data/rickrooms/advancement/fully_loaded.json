@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:portal_drive_upgrade"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.fully_loaded.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.fully_loaded.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cruiser_upgrade"
+}

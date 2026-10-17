@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GEG",
+    "EFE",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "F": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "C": {
+      "item": "minecraft:recovery_compass"
+    }
+  },
+  "result": {
+    "id": "rickrooms:dna_lock_chip",
+    "count": 1
+  }
+}

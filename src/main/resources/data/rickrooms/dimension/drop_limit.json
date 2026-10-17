@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:drop_limit",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "drop_limit",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:drop_limit"
+    }
+  }
+}

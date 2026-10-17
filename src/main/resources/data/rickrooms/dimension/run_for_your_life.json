@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:run_for_your_life",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "run_for_your_life",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:run_for_your_life"
+    }
+  }
+}

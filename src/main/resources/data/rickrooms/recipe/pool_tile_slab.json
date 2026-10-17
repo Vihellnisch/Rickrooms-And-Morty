@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "rickrooms:pool_tile"
+    }
+  },
+  "result": {
+    "id": "rickrooms:pool_tile_slab",
+    "count": 6
+  }
+}

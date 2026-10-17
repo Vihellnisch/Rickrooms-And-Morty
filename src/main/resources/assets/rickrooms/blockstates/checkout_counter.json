@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/checkout_counter"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/checkout_counter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/checkout_counter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/checkout_counter",
+      "y": 270
+    }
+  }
+}

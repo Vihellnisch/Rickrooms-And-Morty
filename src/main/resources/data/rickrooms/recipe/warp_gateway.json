@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "FDF",
+    "OOO"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "F": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "id": "rickrooms:warp_gateway",
+    "count": 1
+  }
+}

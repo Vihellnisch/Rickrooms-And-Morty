@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:balloon"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.level_fun.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.level_fun.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:level_fun"
+      }
+    }
+  },
+  "parent": "rickrooms:level_1"
+}

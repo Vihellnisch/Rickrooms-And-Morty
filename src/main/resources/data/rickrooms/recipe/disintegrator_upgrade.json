@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P ",
+    "EDE",
+    "III"
+  ],
+  "key": {
+    "P": {
+      "item": "rickrooms:portal_fluid"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "rickrooms:disintegrator_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:wooden_hotel",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "wooden_hotel",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:wooden_hotel"
+    }
+  }
+}

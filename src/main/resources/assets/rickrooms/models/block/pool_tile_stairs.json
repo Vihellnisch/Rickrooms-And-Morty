@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rickrooms:block/pool_tile",
+    "top": "rickrooms:block/pool_tile",
+    "side": "rickrooms:block/pool_tile"
+  }
+}

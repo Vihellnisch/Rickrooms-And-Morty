@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "WHW",
+    " T "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "H": {
+      "item": "rickrooms:scarecrow_head"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "id": "rickrooms:scarecrow_lantern",
+    "count": 1
+  }
+}

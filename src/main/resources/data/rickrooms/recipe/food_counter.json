@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "III",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "rickrooms:food_counter",
+    "count": 1
+  }
+}

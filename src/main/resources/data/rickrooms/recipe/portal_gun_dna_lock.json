@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "rickrooms:dna_lock_chip"
+  },
+  "base": {
+    "item": "rickrooms:portal_gun"
+  },
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "rickrooms:portal_gun",
+    "count": 1,
+    "components": {
+      "rickrooms:dna_lock": true
+    }
+  }
+}

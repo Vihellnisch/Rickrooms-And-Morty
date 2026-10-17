@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 14084576,
+    "sky_color": 14084576,
+    "water_color": 4186308,
+    "water_fog_color": 2861207,
+    "grass_color": 9286496,
+    "foliage_color": 7842607,
+    "mood_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions",
+      "tick_delay": 3000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "rickrooms:poolrooms.drip",
+      "tick_chance": 0.004
+    },
+    "music": {
+      "sound": "rickrooms:music.poolrooms",
+      "min_delay": 1200,
+      "max_delay": 3600,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

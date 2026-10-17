@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:the_staircase",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "staircase",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:the_staircase"
+    }
+  }
+}

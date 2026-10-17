@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:bacteria_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.bacteria.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.bacteria.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rickrooms:bacteria"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

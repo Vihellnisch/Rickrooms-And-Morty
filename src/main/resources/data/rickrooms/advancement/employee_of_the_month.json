@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:staff_badge"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.employee_of_the_month.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.employee_of_the_month.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "badge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:staff_badge"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:infinite_ikea"
+}

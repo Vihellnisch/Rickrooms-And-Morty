@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "rickrooms:block/steel",
+    "side": "rickrooms:block/steel",
+    "top": "rickrooms:block/checkout_top"
+  }
+}

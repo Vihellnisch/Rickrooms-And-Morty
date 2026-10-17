@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:present"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.surprise.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.surprise.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:level_fun"
+}

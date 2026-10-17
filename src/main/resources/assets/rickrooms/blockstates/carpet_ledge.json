@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rickrooms:block/carpet_ledge"
+    },
+    "type=top": {
+      "model": "rickrooms:block/carpet_ledge_top"
+    },
+    "type=double": {
+      "model": "rickrooms:block/carpet_ledge_double"
+    }
+  }
+}

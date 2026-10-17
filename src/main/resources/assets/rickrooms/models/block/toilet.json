@@ -1,0 +1,214 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "rickrooms:block/ceramic",
+    "c": "rickrooms:block/ceramic",
+    "top": "rickrooms:block/toilet_top"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        3
+      ],
+      "to": [
+        12,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#c",
+          "uv": [
+            4,
+            11,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            4,
+            11,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            5,
+            11,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            3,
+            11,
+            11,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#c",
+          "uv": [
+            4,
+            3,
+            12,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#c",
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        5,
+        2
+      ],
+      "to": [
+        13,
+        8,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#c",
+          "uv": [
+            3,
+            8,
+            13,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            3,
+            8,
+            13,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            4,
+            8,
+            14,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            2,
+            8,
+            12,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            3,
+            2,
+            13,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#c",
+          "uv": [
+            3,
+            4,
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        8,
+        11
+      ],
+      "to": [
+        14,
+        18,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#c",
+          "uv": [
+            2,
+            0,
+            14,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            2,
+            0,
+            14,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            1,
+            0,
+            5,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            11,
+            0,
+            15,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#c",
+          "uv": [
+            2,
+            11,
+            14,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#c",
+          "uv": [
+            2,
+            1,
+            14,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

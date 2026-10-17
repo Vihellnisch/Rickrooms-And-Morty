@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:blender_chip"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.blender_upgrade.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.blender_upgrade.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:portal_gun",
+            "components": {
+              "rickrooms:blender": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:portal_fluid"
+}

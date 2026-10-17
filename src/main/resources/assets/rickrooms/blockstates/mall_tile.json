@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "tone=0": {
+      "model": "rickrooms:block/mall_tile_0"
+    },
+    "tone=1": {
+      "model": "rickrooms:block/mall_tile_1"
+    },
+    "tone=2": {
+      "model": "rickrooms:block/mall_tile_2"
+    },
+    "tone=3": {
+      "model": "rickrooms:block/mall_tile_3"
+    },
+    "tone=4": {
+      "model": "rickrooms:block/mall_tile_4"
+    },
+    "tone=5": {
+      "model": "rickrooms:block/mall_tile_5"
+    }
+  }
+}

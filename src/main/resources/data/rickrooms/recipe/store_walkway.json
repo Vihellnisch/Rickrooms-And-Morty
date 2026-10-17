@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "id": "rickrooms:store_walkway",
+    "count": 4
+  }
+}

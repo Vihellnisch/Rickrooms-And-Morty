@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:portal_fluid",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:portal_fluid_drop",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:szechuan_sauce",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:ricks_flask",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:plumbus",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:meeseeks_box",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:almond_water",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

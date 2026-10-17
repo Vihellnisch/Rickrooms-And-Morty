@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "rickrooms:flesh",
+    "rickrooms:veined_flesh",
+    "rickrooms:rotting_flesh",
+    "rickrooms:tumor",
+    "rickrooms:watching_flesh",
+    "rickrooms:blood_clot",
+    "rickrooms:cloud",
+    "rickrooms:froopy_turf_pink",
+    "rickrooms:froopy_turf_mint",
+    "rickrooms:froopy_turf_lavender",
+    "rickrooms:froopy_turf_butter"
+  ]
+}

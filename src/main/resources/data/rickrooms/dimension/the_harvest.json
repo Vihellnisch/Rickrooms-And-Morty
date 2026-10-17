@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:the_harvest",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "harvest",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:the_harvest"
+    }
+  }
+}

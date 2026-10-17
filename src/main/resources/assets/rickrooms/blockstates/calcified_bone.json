@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "rickrooms:block/calcified_bone"
+    },
+    "axis=z": {
+      "model": "rickrooms:block/calcified_bone_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "rickrooms:block/calcified_bone_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

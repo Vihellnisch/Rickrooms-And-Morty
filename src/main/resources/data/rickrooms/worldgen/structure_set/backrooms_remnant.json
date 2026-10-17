@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rickrooms:backrooms_remnant",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 90,
+    "separation": 45,
+    "salt": 190376121
+  }
+}

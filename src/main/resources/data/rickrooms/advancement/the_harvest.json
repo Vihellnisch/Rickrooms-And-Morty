@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:dried_corn"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_harvest.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_harvest.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:the_harvest"
+      }
+    }
+  },
+  "parent": "rickrooms:level_4"
+}

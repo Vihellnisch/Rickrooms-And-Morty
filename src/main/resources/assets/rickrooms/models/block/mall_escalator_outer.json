@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "rickrooms:block/mall_escalator_side",
+    "top": "rickrooms:block/mall_escalator",
+    "side": "rickrooms:block/mall_escalator_side"
+  }
+}

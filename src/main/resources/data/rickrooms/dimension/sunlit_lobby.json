@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:sunlit_lobby",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "sunlit_lobby",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:sunlit_lobby"
+    }
+  }
+}

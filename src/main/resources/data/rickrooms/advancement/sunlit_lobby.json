@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:sunlit_tile"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.sunlit_lobby.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.sunlit_lobby.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:sunlit_lobby"
+      }
+    }
+  },
+  "parent": "rickrooms:the_harvest"
+}

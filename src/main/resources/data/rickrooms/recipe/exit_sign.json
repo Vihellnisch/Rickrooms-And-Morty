@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_concrete"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "rickrooms:exit_sign",
+    "count": 2
+  }
+}

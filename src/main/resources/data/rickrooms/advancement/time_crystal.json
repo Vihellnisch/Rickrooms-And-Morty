@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:time_crystal"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.time_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.time_crystal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:time_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:microverse"
+}

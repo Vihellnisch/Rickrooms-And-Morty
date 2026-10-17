@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rickrooms:calcified_bone"
+    },
+    {
+      "item": "rickrooms:calcified_bone"
+    }
+  ],
+  "result": {
+    "id": "rickrooms:bone_plate",
+    "count": 3
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:tumor"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.cronenberged.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.cronenberged.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:cronenberg"
+}

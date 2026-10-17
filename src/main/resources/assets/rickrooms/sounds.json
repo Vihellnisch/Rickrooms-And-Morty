@@ -1,0 +1,776 @@
+{
+  "portal_gun.fire": {
+    "subtitle": "subtitles.rickrooms.portal_gun.fire",
+    "sounds": [
+      {
+        "name": "minecraft:entity.illusioner.mirror_move",
+        "type": "event",
+        "pitch": 1.4
+      }
+    ]
+  },
+  "portal_gun.empty": {
+    "subtitle": "subtitles.rickrooms.portal_gun.empty",
+    "sounds": [
+      {
+        "name": "minecraft:block.dispenser.fail",
+        "type": "event",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "portal_gun.reload": {
+    "subtitle": "subtitles.rickrooms.portal_gun.reload",
+    "sounds": [
+      {
+        "name": "minecraft:item.bottle.empty",
+        "type": "event"
+      }
+    ]
+  },
+  "portal.open": {
+    "subtitle": "subtitles.rickrooms.portal.open",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.charge",
+        "type": "event",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "portal.travel": {
+    "subtitle": "subtitles.rickrooms.portal.travel",
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.teleport",
+        "type": "event",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "gateway.hum": {
+    "subtitle": "subtitles.rickrooms.gateway.hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.5
+      }
+    ]
+  },
+  "backrooms.light_buzz": {
+    "subtitle": "subtitles.rickrooms.backrooms.light_buzz",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "backrooms.hum": {
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.35
+      }
+    ]
+  },
+  "bacteria.ambient": {
+    "subtitle": "subtitles.rickrooms.bacteria.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.ambient",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "bacteria.hurt": {
+    "subtitle": "subtitles.rickrooms.bacteria.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.hurt",
+        "type": "event",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "bacteria.death": {
+    "subtitle": "subtitles.rickrooms.bacteria.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.death",
+        "type": "event",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "bacteria.step": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.skeleton.step",
+        "type": "event",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "cronenberg.ambient": {
+    "subtitle": "subtitles.rickrooms.cronenberg.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.ambient",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.ravager.ambient",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "cronenberg.hurt": {
+    "subtitle": "subtitles.rickrooms.cronenberg.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.hurt",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.slime.squish",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "cronenberg.death": {
+    "subtitle": "subtitles.rickrooms.cronenberg.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.death",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "cronenberg.step": {
+    "subtitle": "subtitles.rickrooms.cronenberg.step",
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.squish_small",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "behemoth.ambient": {
+    "subtitle": "subtitles.rickrooms.behemoth.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.warden.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "mantis.ambient": {
+    "subtitle": "subtitles.rickrooms.mantis.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.silverfish.ambient",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.bat.ambient",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ]
+  },
+  "mantis.hurt": {
+    "subtitle": "subtitles.rickrooms.mantis.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.spider.hurt",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 1.0
+      }
+    ]
+  },
+  "mantis.death": {
+    "subtitle": "subtitles.rickrooms.mantis.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.spider.death",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 1.0
+      }
+    ]
+  },
+  "cronenberg.wind": {
+    "subtitle": "subtitles.rickrooms.cronenberg.wind",
+    "sounds": [
+      {
+        "name": "minecraft:ambient.soul_sand_valley.loop",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "cronenberg.heartbeat": {
+    "subtitle": "subtitles.rickrooms.cronenberg.heartbeat",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.heartbeat",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "cronenberg.distant": {
+    "subtitle": "subtitles.rickrooms.cronenberg.distant",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity.zombie_villager.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity.enderman.scream",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.9
+      }
+    ]
+  },
+  "blender.grab": {
+    "subtitle": "subtitles.rickrooms.blender.grab",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.extend",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.chain.place",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.iron_golem.attack",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "blender.saw": {
+    "subtitle": "subtitles.rickrooms.blender.saw",
+    "sounds": [
+      {
+        "name": "minecraft:ui.stonecutter.take_result",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 1.0
+      }
+    ]
+  },
+  "blender.gore": {
+    "subtitle": "subtitles.rickrooms.blender.gore",
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.squish",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.player.hurt_sweet_berry_bush",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "watcher.whistle": {
+    "subtitle": "subtitles.rickrooms.watcher.whistle",
+    "sounds": [
+      {
+        "name": "rickrooms:watcher/whistle",
+        "volume": 0.8
+      }
+    ]
+  },
+  "watcher.whisper": {
+    "subtitle": "subtitles.rickrooms.watcher.whisper",
+    "sounds": [
+      {
+        "name": "minecraft:ambient.cave",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "monolith.hum": {
+    "subtitle": "subtitles.rickrooms.monolith.hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 0.4,
+        "volume": 0.5
+      }
+    ]
+  },
+  "poolrooms.drip": {
+    "subtitle": "subtitles.rickrooms.poolrooms.drip",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water_into_cauldron",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.4
+      }
+    ]
+  },
+  "space_cruiser.engine": {
+    "subtitle": "subtitles.rickrooms.space_cruiser.engine",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.9
+      }
+    ]
+  },
+  "staff.ambient": {
+    "subtitle": "subtitles.rickrooms.staff.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "staff.closed": {
+    "subtitle": "subtitles.rickrooms.staff.closed",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.ambient",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 0.9
+      }
+    ]
+  },
+  "staff.hurt": {
+    "subtitle": "subtitles.rickrooms.staff.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.hurt",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ]
+  },
+  "staff.death": {
+    "subtitle": "subtitles.rickrooms.staff.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.death",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "store.chime": {
+    "subtitle": "subtitles.rickrooms.store.chime",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.chime",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "still_life.voice": {
+    "subtitle": "subtitles.rickrooms.still_life.voice",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity.villager.no",
+        "type": "event",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity.wandering_trader.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.7
+      }
+    ]
+  },
+  "still_life.wake": {
+    "subtitle": "subtitles.rickrooms.still_life.wake",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.hurt",
+        "type": "event",
+        "pitch": 0.4,
+        "volume": 1.0
+      }
+    ]
+  },
+  "still_life.hurt": {
+    "subtitle": "subtitles.rickrooms.still_life.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.hurt",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "still_life.death": {
+    "subtitle": "subtitles.rickrooms.still_life.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.death",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "still_life.click": {
+    "subtitle": "subtitles.rickrooms.still_life.click",
+    "sounds": [
+      {
+        "name": "minecraft:block.bone_block.step",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.wood.hit",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.6
+      }
+    ]
+  },
+  "shrink_ray.fire": {
+    "subtitle": "subtitles.rickrooms.shrink_ray.fire",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.beacon.activate",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "freeze_ray.hit": {
+    "subtitle": "subtitles.rickrooms.freeze_ray.hit",
+    "sounds": [
+      {
+        "name": "minecraft:block.glass.break",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.powder_snow.place",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "time_crystal.hum": {
+    "subtitle": "subtitles.rickrooms.time_crystal.hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "music.backrooms": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/backrooms",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.level_1": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/level_1",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.level_4": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/level_4",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.level_188": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/level_188",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.the_harvest": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/the_harvest",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.sunlit_lobby": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/sunlit_lobby",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.wooden_hotel": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/wooden_hotel",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.scaffold_void": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/scaffold_void",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.glowstone_cavern": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/glowstone_cavern",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.poolrooms": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/poolrooms",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.level_fun": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/level_fun",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.infinite_ikea": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/infinite_ikea",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.dead_mall": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/dead_mall",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.endless_field": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/endless_field",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.abandoned_city": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/abandoned_city",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.drop_limit": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/drop_limit",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.the_facade": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/the_facade",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.the_staircase": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/the_staircase",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.froopyland": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/froopyland",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.run_for_your_life": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/run_for_your_life",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.cronenberg": {
+    "sounds": [
+      {
+        "name": "rickrooms:music/cronenberg",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  }
+}

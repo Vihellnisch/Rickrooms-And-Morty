@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:freeze_ray"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.freeze_ray.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.freeze_ray.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:freeze_ray"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:microverse"
+}

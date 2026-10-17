@@ -1,0 +1,364 @@
+{
+  "variants": {
+    "color=0,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_0"
+    },
+    "color=1,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_1"
+    },
+    "color=2,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_2"
+    },
+    "color=3,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_3"
+    },
+    "color=4,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_4"
+    },
+    "color=5,facing=north,part=single": {
+      "model": "rickrooms:block/sofa_single_5"
+    },
+    "color=0,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_0"
+    },
+    "color=1,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_1"
+    },
+    "color=2,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_2"
+    },
+    "color=3,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_3"
+    },
+    "color=4,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_4"
+    },
+    "color=5,facing=north,part=left": {
+      "model": "rickrooms:block/sofa_left_5"
+    },
+    "color=0,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_0"
+    },
+    "color=1,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_1"
+    },
+    "color=2,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_2"
+    },
+    "color=3,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_3"
+    },
+    "color=4,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_4"
+    },
+    "color=5,facing=north,part=middle": {
+      "model": "rickrooms:block/sofa_middle_5"
+    },
+    "color=0,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_0"
+    },
+    "color=1,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_1"
+    },
+    "color=2,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_2"
+    },
+    "color=3,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_3"
+    },
+    "color=4,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_4"
+    },
+    "color=5,facing=north,part=right": {
+      "model": "rickrooms:block/sofa_right_5"
+    },
+    "color=0,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_0",
+      "y": 90
+    },
+    "color=1,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_1",
+      "y": 90
+    },
+    "color=2,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_2",
+      "y": 90
+    },
+    "color=3,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_3",
+      "y": 90
+    },
+    "color=4,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_4",
+      "y": 90
+    },
+    "color=5,facing=east,part=single": {
+      "model": "rickrooms:block/sofa_single_5",
+      "y": 90
+    },
+    "color=0,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_0",
+      "y": 90
+    },
+    "color=1,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_1",
+      "y": 90
+    },
+    "color=2,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_2",
+      "y": 90
+    },
+    "color=3,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_3",
+      "y": 90
+    },
+    "color=4,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_4",
+      "y": 90
+    },
+    "color=5,facing=east,part=left": {
+      "model": "rickrooms:block/sofa_left_5",
+      "y": 90
+    },
+    "color=0,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_0",
+      "y": 90
+    },
+    "color=1,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_1",
+      "y": 90
+    },
+    "color=2,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_2",
+      "y": 90
+    },
+    "color=3,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_3",
+      "y": 90
+    },
+    "color=4,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_4",
+      "y": 90
+    },
+    "color=5,facing=east,part=middle": {
+      "model": "rickrooms:block/sofa_middle_5",
+      "y": 90
+    },
+    "color=0,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_0",
+      "y": 90
+    },
+    "color=1,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_1",
+      "y": 90
+    },
+    "color=2,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_2",
+      "y": 90
+    },
+    "color=3,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_3",
+      "y": 90
+    },
+    "color=4,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_4",
+      "y": 90
+    },
+    "color=5,facing=east,part=right": {
+      "model": "rickrooms:block/sofa_right_5",
+      "y": 90
+    },
+    "color=0,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_0",
+      "y": 180
+    },
+    "color=1,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_1",
+      "y": 180
+    },
+    "color=2,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_2",
+      "y": 180
+    },
+    "color=3,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_3",
+      "y": 180
+    },
+    "color=4,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_4",
+      "y": 180
+    },
+    "color=5,facing=south,part=single": {
+      "model": "rickrooms:block/sofa_single_5",
+      "y": 180
+    },
+    "color=0,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_0",
+      "y": 180
+    },
+    "color=1,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_1",
+      "y": 180
+    },
+    "color=2,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_2",
+      "y": 180
+    },
+    "color=3,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_3",
+      "y": 180
+    },
+    "color=4,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_4",
+      "y": 180
+    },
+    "color=5,facing=south,part=left": {
+      "model": "rickrooms:block/sofa_left_5",
+      "y": 180
+    },
+    "color=0,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_0",
+      "y": 180
+    },
+    "color=1,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_1",
+      "y": 180
+    },
+    "color=2,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_2",
+      "y": 180
+    },
+    "color=3,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_3",
+      "y": 180
+    },
+    "color=4,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_4",
+      "y": 180
+    },
+    "color=5,facing=south,part=middle": {
+      "model": "rickrooms:block/sofa_middle_5",
+      "y": 180
+    },
+    "color=0,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_0",
+      "y": 180
+    },
+    "color=1,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_1",
+      "y": 180
+    },
+    "color=2,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_2",
+      "y": 180
+    },
+    "color=3,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_3",
+      "y": 180
+    },
+    "color=4,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_4",
+      "y": 180
+    },
+    "color=5,facing=south,part=right": {
+      "model": "rickrooms:block/sofa_right_5",
+      "y": 180
+    },
+    "color=0,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_0",
+      "y": 270
+    },
+    "color=1,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_1",
+      "y": 270
+    },
+    "color=2,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_2",
+      "y": 270
+    },
+    "color=3,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_3",
+      "y": 270
+    },
+    "color=4,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_4",
+      "y": 270
+    },
+    "color=5,facing=west,part=single": {
+      "model": "rickrooms:block/sofa_single_5",
+      "y": 270
+    },
+    "color=0,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_0",
+      "y": 270
+    },
+    "color=1,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_1",
+      "y": 270
+    },
+    "color=2,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_2",
+      "y": 270
+    },
+    "color=3,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_3",
+      "y": 270
+    },
+    "color=4,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_4",
+      "y": 270
+    },
+    "color=5,facing=west,part=left": {
+      "model": "rickrooms:block/sofa_left_5",
+      "y": 270
+    },
+    "color=0,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_0",
+      "y": 270
+    },
+    "color=1,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_1",
+      "y": 270
+    },
+    "color=2,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_2",
+      "y": 270
+    },
+    "color=3,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_3",
+      "y": 270
+    },
+    "color=4,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_4",
+      "y": 270
+    },
+    "color=5,facing=west,part=middle": {
+      "model": "rickrooms:block/sofa_middle_5",
+      "y": 270
+    },
+    "color=0,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_0",
+      "y": 270
+    },
+    "color=1,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_1",
+      "y": 270
+    },
+    "color=2,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_2",
+      "y": 270
+    },
+    "color=3,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_3",
+      "y": 270
+    },
+    "color=4,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_4",
+      "y": 270
+    },
+    "color=5,facing=west,part=right": {
+      "model": "rickrooms:block/sofa_right_5",
+      "y": 270
+    }
+  }
+}

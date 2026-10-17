@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.wooden_hotel.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.wooden_hotel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:wooden_hotel"
+      }
+    }
+  },
+  "parent": "rickrooms:level_188"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cloud"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.drop_limit.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.drop_limit.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:drop_limit"
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:scaffold_void",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "scaffold",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:scaffold_void"
+    }
+  }
+}

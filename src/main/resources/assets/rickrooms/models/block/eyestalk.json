@@ -1,0 +1,107 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "stalk": "rickrooms:block/eyestalk",
+    "eye": "rickrooms:block/eyestalk_eye",
+    "particle": "rickrooms:block/eyestalk"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        10,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stalk"
+        },
+        "south": {
+          "texture": "#stalk"
+        },
+        "east": {
+          "texture": "#stalk"
+        },
+        "west": {
+          "texture": "#stalk"
+        },
+        "up": {
+          "texture": "#stalk"
+        },
+        "down": {
+          "texture": "#stalk"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        3,
+        7
+      ],
+      "to": [
+        7,
+        7,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stalk"
+        },
+        "south": {
+          "texture": "#stalk"
+        },
+        "east": {
+          "texture": "#stalk"
+        },
+        "west": {
+          "texture": "#stalk"
+        },
+        "up": {
+          "texture": "#stalk"
+        },
+        "down": {
+          "texture": "#stalk"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        10,
+        5.5
+      ],
+      "to": [
+        10.5,
+        15,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#eye"
+        },
+        "south": {
+          "texture": "#eye"
+        },
+        "east": {
+          "texture": "#eye"
+        },
+        "west": {
+          "texture": "#eye"
+        },
+        "up": {
+          "texture": "#eye"
+        },
+        "down": {
+          "texture": "#eye"
+        }
+      },
+      "shade": false
+    }
+  ]
+}

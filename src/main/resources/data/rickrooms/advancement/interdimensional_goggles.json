@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:interdimensional_goggles"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.interdimensional_goggles.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.interdimensional_goggles.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rickrooms:interdimensional_goggles"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:time_crystal"
+}

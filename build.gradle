@@ -1,0 +1,120 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+repositories {
+    mavenCentral()
+    // Curios (optional at runtime; the goggles fit its head slot when it's installed)
+    maven { url = 'https://maven.theillusivec4.top/' }
+}
+
+// In-game tests live in their own source set so they never end up in the mod jar.
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+neoForge {
+    version = project.neo_version
+
+    parchment {}
+
+    addModdingDependenciesTo(sourceSets.gametest)
+
+    runs {
+        client { client() }
+        server { server() }
+        // ./gradlew runGameTestServer  - runs the tests in src/gametest and exits
+        gameTestServer {
+            type = "gameTestServer"
+            sourceSet = sourceSets.gametest
+            gameDirectory = project.file('run-gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'rickrooms'
+        }
+        // ./gradlew runTourClient  - opens run-tour/saves/rm_test, builds gateways, visits the Backrooms,
+        // takes screenshots into run-tour/screenshots and quits (see DevTour.java)
+        tourClient {
+            client()
+            sourceSet = sourceSets.gametest
+            gameDirectory = project.file('run-tour')
+            systemProperty 'rickrooms.tour', 'true'
+            systemProperty 'rickrooms.tour.sites', System.getProperty('tourSites', 'false')
+            systemProperty 'rickrooms.tour.levels', System.getProperty('tourLevels', 'false')
+            systemProperty 'rickrooms.tour.shaders', System.getProperty('tourShaders', 'false')
+            systemProperty 'rickrooms.tour.v09', System.getProperty('tourV09', 'false')
+            systemProperty 'rickrooms.tour.v10', System.getProperty('tourV10', 'false')
+            systemProperty 'rickrooms.tour.v11', System.getProperty('tourV11', 'false')
+            systemProperty 'rickrooms.tour.v12', System.getProperty('tourV12', 'false')
+            systemProperty 'rickrooms.tour.v13', System.getProperty('tourV13', 'false')
+            systemProperty 'rickrooms.tour.v14', System.getProperty('tourV14', 'false')
+            systemProperty 'rickrooms.tour.v15', System.getProperty('tourV15', 'false')
+            systemProperty 'rickrooms.tour.v16', System.getProperty('tourV16', 'false')
+            systemProperty 'rickrooms.tour.v17', System.getProperty('tourV17', 'false')
+            systemProperty 'rickrooms.tour.v18', System.getProperty('tourV18', 'false')
+            systemProperty 'rickrooms.tour.v19', System.getProperty('tourV19', 'false')
+            systemProperty 'rickrooms.tour.city', System.getProperty('tourCity', 'false')
+            systemProperty 'rickrooms.tour.curios', System.getProperty('tourCurios', 'false')
+            systemProperty 'rickrooms.tour.v22', System.getProperty('tourV22', 'false')
+            systemProperty 'rickrooms.tour.droplimit', System.getProperty('tourDropLimit', 'false')
+            systemProperty 'rickrooms.tour.facade', System.getProperty('tourFacade', 'false')
+            systemProperty 'rickrooms.tour.staircase', System.getProperty('tourStaircase', 'false')
+            systemProperty 'rickrooms.tour.froopyland', System.getProperty('tourFroopyland', 'false')
+            systemProperty 'rickrooms.tour.run', System.getProperty('tourRun', 'false')
+            programArguments.addAll('--quickPlaySingleplayer', 'rm_test')
+        }
+    }
+
+    mods {
+        rickrooms {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.gametest
+        }
+    }
+}
+
+dependencies {
+    // Curios is optional: compiled against (for the goggles' head slot), never bundled or required.
+    // a local copy in libs/ if there is one (offline builds), otherwise from Curios' maven
+    def curiosJar = file('libs/curios-neoforge-9.5.1+1.21.1.jar')
+    def curios = curiosJar.exists() ? files(curiosJar) : 'top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1'
+    compileOnly curios
+    gametestCompileOnly curios
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+        minecraft_version      : minecraft_version,
+        minecraft_version_range: minecraft_version_range,
+        neo_version            : neo_version,
+        neo_version_range      : neo_version_range,
+        loader_version_range   : loader_version_range,
+        mod_id                 : mod_id,
+        mod_name               : mod_name,
+        mod_authors            : mod_authors,
+        mod_description        : mod_description,
+        mod_version            : mod_version
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/neoforge.mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}

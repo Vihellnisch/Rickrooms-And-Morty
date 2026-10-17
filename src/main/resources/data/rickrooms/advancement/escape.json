@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:portal_fluid_drop"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.escape.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.escape.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drank": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "rickrooms:portal_fluid_drop"
+        }
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:flat_pack_box"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.infinite_ikea.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.infinite_ikea.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:infinite_ikea"
+      }
+    }
+  },
+  "parent": "rickrooms:level_4"
+}

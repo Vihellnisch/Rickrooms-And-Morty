@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "SWS",
+    " B "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "W": {
+      "item": "minecraft:pink_wool"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "rickrooms:plumbus",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:monolith"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.the_monolith.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.the_monolith.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "rickrooms:monolith"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

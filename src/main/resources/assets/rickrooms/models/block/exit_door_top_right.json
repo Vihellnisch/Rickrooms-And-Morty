@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "rickrooms:block/exit_door_bottom",
+    "top": "rickrooms:block/exit_door_top"
+  }
+}

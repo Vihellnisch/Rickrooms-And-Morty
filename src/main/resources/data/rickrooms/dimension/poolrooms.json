@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:poolrooms",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "poolrooms",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:poolrooms"
+    }
+  }
+}

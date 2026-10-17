@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.scaffold_void.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.scaffold_void.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:scaffold_void"
+      }
+    }
+  },
+  "parent": "rickrooms:wooden_hotel"
+}

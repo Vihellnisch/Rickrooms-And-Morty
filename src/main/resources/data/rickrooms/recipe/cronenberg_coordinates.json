@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rickrooms:rick_notes_1"
+    },
+    {
+      "item": "rickrooms:rick_notes_2"
+    },
+    {
+      "item": "rickrooms:rick_notes_3"
+    },
+    {
+      "item": "rickrooms:portal_fluid"
+    }
+  ],
+  "result": {
+    "id": "rickrooms:cronenberg_coordinates",
+    "count": 1
+  }
+}

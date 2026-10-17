@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IMI",
+    "SFS",
+    "IMI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "rickrooms:mutagen_sac"
+    },
+    "S": {
+      "item": "minecraft:stonecutter"
+    },
+    "F": {
+      "item": "rickrooms:portal_fluid"
+    }
+  },
+  "result": {
+    "id": "rickrooms:blender_chip",
+    "count": 1
+  }
+}

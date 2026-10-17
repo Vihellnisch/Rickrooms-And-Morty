@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:almond_water",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:portal_fluid_drop",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:journal_page_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:journal_page_2",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:journal_page_3",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rickrooms:fluorescent_light",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

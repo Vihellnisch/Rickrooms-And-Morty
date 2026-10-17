@@ -1,0 +1,215 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "rickrooms:block/gumball_base",
+    "base": "rickrooms:block/gumball_base",
+    "globe": "rickrooms:block/gumball_globe"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        6,
+        3
+      ],
+      "to": [
+        13,
+        15,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            1,
+            13,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            1,
+            13,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            1,
+            13,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            1,
+            13,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#globe",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        15,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

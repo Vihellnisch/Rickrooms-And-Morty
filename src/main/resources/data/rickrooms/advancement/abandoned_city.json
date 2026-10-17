@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.abandoned_city.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.abandoned_city.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rickrooms:abandoned_city"
+      }
+    }
+  },
+  "parent": "rickrooms:endless_field"
+}

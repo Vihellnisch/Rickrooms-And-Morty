@@ -1,0 +1,8 @@
+{
+  "type": "rickrooms:site",
+  "kind": "council_chamber",
+  "biomes": "#rickrooms:has_council",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

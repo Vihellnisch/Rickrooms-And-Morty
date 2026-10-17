@@ -1,0 +1,178 @@
+{
+  "variants": {
+    "facing=north,part=0,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=0,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=1,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=1,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=2,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=2,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=3,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=3,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=4,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=4,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=5,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=5,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=north,part=6,red=false": {
+      "model": "rickrooms:block/warp_gateway_top"
+    },
+    "facing=north,part=6,red=true": {
+      "model": "rickrooms:block/warp_gateway_top_red"
+    },
+    "facing=east,part=0,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=0,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=1,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=1,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=2,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=2,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=3,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=3,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=4,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=4,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=5,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=5,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=east,part=6,red=false": {
+      "model": "rickrooms:block/warp_gateway_top",
+      "y": 90
+    },
+    "facing=east,part=6,red=true": {
+      "model": "rickrooms:block/warp_gateway_top_red",
+      "y": 90
+    },
+    "facing=south,part=0,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=0,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=1,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=1,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=2,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=2,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=3,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=3,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=4,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=4,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=5,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=5,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=south,part=6,red=false": {
+      "model": "rickrooms:block/warp_gateway_top",
+      "y": 180
+    },
+    "facing=south,part=6,red=true": {
+      "model": "rickrooms:block/warp_gateway_top_red",
+      "y": 180
+    },
+    "facing=west,part=0,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=0,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=1,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=1,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=2,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=2,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=3,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=3,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=4,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=4,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=5,red=false": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=5,red=true": {
+      "model": "rickrooms:block/gateway_frame"
+    },
+    "facing=west,part=6,red=false": {
+      "model": "rickrooms:block/warp_gateway_top",
+      "y": 270
+    },
+    "facing=west,part=6,red=true": {
+      "model": "rickrooms:block/warp_gateway_top_red",
+      "y": 270
+    }
+  }
+}

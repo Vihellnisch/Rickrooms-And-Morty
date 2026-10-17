@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:almond_water"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.almond_water.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.almond_water.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drank": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "rickrooms:almond_water"
+        }
+      }
+    }
+  },
+  "parent": "rickrooms:backrooms"
+}

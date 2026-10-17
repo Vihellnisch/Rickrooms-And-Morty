@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "rickrooms:block/lone_door_bottom",
+    "top": "rickrooms:block/lone_door_top"
+  }
+}

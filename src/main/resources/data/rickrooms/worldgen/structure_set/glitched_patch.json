@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rickrooms:glitched_patch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 32,
+    "salt": 190376123
+  }
+}

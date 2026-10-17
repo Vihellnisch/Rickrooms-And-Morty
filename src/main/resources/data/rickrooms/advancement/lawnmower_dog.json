@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:cognition_amplifier"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.lawnmower_dog.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.lawnmower_dog.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:microverse"
+}

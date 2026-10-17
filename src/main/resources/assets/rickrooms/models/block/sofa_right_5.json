@@ -1,0 +1,7 @@
+{
+  "parent": "rickrooms:block/sofa_right_template",
+  "textures": {
+    "fabric": "rickrooms:block/sofa_5",
+    "feet": "minecraft:block/dark_oak_planks"
+  }
+}

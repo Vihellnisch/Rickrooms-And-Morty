@@ -1,0 +1,8 @@
+{
+  "type": "rickrooms:anomaly",
+  "kind": "glitched_patch",
+  "biomes": "#rickrooms:has_anomalies",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

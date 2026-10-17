@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "I I",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "item": "minecraft:smooth_sandstone"
+    }
+  },
+  "result": {
+    "id": "rickrooms:mall_trash_can",
+    "count": 1
+  }
+}

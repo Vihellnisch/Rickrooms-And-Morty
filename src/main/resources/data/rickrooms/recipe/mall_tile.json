@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "id": "rickrooms:mall_tile",
+    "count": 4
+  }
+}

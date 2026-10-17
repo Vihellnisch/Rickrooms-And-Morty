@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rickrooms:block/exit_sign"
+    },
+    "facing=east": {
+      "model": "rickrooms:block/exit_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rickrooms:block/exit_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rickrooms:block/exit_sign",
+      "y": 270
+    }
+  }
+}

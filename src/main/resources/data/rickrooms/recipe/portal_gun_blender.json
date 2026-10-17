@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "rickrooms:blender_chip"
+  },
+  "base": {
+    "item": "rickrooms:portal_gun"
+  },
+  "addition": {
+    "item": "rickrooms:mantis_scythe"
+  },
+  "result": {
+    "id": "rickrooms:portal_gun",
+    "count": 1,
+    "components": {
+      "rickrooms:blender": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rickrooms:space_cruiser"
+    },
+    "title": {
+      "translate": "advancements.rickrooms.space_cruiser.title"
+    },
+    "description": {
+      "translate": "advancements.rickrooms.space_cruiser.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rickrooms:microverse"
+}

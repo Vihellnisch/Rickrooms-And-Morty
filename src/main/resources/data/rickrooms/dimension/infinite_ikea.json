@@ -1,0 +1,11 @@
+{
+  "type": "rickrooms:infinite_ikea",
+  "generator": {
+    "type": "rickrooms:backrooms_level",
+    "level": "infinite_ikea",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rickrooms:infinite_ikea"
+    }
+  }
+}
