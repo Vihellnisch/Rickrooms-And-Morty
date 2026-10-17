@@ -74,6 +74,7 @@ neoForge {
             systemProperty 'rickrooms.tour.staircase', System.getProperty('tourStaircase', 'false')
             systemProperty 'rickrooms.tour.froopyland', System.getProperty('tourFroopyland', 'false')
             systemProperty 'rickrooms.tour.run', System.getProperty('tourRun', 'false')
+            systemProperty 'rickrooms.tour.gun', System.getProperty('tourGun', 'false')
             programArguments.addAll('--quickPlaySingleplayer', 'rm_test')
         }
     }

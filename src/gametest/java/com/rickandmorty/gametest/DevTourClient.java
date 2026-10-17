@@ -18,6 +18,13 @@ public class DevTourClient {
     private static final int SHOT_DELAY = 115;
     /** The last stop we took a screenshot of, and the last one we set the camera up for. */
     private static int shot = -1, prepared = -1, screenTicks;
+    /** This stop wants the hand drawn but no HUD. */
+    private static boolean bare;
+
+    @SubscribeEvent
+    public static void onRenderGui(net.neoforged.neoforge.client.event.RenderGuiEvent.Pre event) {
+        if (DevTour.ENABLED && bare) event.setCanceled(true);
+    }
 
     @SubscribeEvent
     public static void onClientTick(ClientTickEvent.Post event) {
@@ -33,7 +40,10 @@ public class DevTourClient {
             return;
         }
         String name = DevTour.STOP_NAMES.get(stop);
-        mc.options.hideGui = !name.endsWith("_hand");   // like pressing F1: no HUD or hand in the screenshots (unless the hand is the point)
+        // like pressing F1: no HUD or hand in the screenshots (unless the hand is the point: "_hand" keeps the HUD, "_bare" just the hand)
+        mc.options.hideGui = !name.endsWith("_hand") && !name.endsWith("_bare");
+        bare = name.endsWith("_bare");
+        if (bare) mc.getToasts().clear();               // advancement pop-ups would cover the shot
         if (prepared != stop && within >= 5) {
             prepared = stop;
             boolean front = name.endsWith("_front");

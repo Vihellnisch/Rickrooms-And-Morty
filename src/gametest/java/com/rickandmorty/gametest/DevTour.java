@@ -75,6 +75,7 @@ public class DevTour {
         if (Boolean.getBoolean("rickrooms.tour.staircase")) StaircaseTour.addStops((name, action) -> stops.add(new Stop(name, action)));
         if (Boolean.getBoolean("rickrooms.tour.froopyland")) FroopylandTour.addStops((name, action) -> stops.add(new Stop(name, action)));
         if (Boolean.getBoolean("rickrooms.tour.run")) RunTour.addStops((name, action) -> stops.add(new Stop(name, action)));
+        if (Boolean.getBoolean("rickrooms.tour.gun")) GunTour.addStops((name, action) -> stops.add(new Stop(name, action)));
         if (!stops.isEmpty()) return stops;
         if (Boolean.getBoolean("rickrooms.tour.v22")) {
             V22Tour.addStops((name, action) -> stops.add(new Stop(name, action)));
