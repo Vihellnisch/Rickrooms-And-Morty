@@ -4,6 +4,8 @@ A parody Minecraft mod: **Rick and Morty, lost in the Backrooms.** Rick's Portal
 
 Unofficial and fan-made. Not affiliated with or endorsed by Adult Swim or the creators of Rick and Morty.
 
+**Download:** the jar is on the [Releases page](https://github.com/Vihellnisch/Rickrooms-And-Morty/releases/latest). Drop it into your `mods` folder.
+
 - **Minecraft** 1.21.1, **NeoForge** 21.1+
 - **Optional:** [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios) 9.x (the Interdimensional Goggles fit its head slot)
 
